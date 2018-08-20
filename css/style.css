@@ -1,0 +1,139 @@
+body{
+     padding: 0px;
+     margin:0px;
+     font-family: arial,helvetica,sans-serif,verdana;
+     line-height: 1.6em;
+     font-size: 15px;
+     background-color: #f7f7f7;
+
+}
+
+
+     
+#header-logo{
+     padding: 10px;
+}
+
+#showcase{
+     background-image: url('../shspic/photos.jpg');
+     background-position: 25% 75%; 
+     background-repeat: no-repeat;  
+     min-height: 300px;
+     font-size: 50px;
+     line-height: 1.6em;
+     margin-top: -20px; 
+
+}
+
+
+#showcase-about-us{
+     background-image: url('../shspic/wew.jpg');
+     background-position: 50% 30%; 
+     background-repeat: no-repeat;  
+     min-height: 400px;
+     font-size: 50px;
+     line-height: 1.6em;
+     margin-top: -20px; 
+
+}
+#showcase h1{
+	text-align: center;
+	color: white;
+	padding-top: 90px;
+     font-size: 40px;
+     padding: auto;
+}
+
+#footer{
+     background-color:#262626;
+     color:white;
+     text-align: center;
+     padding: 20px;
+     margin-top: 100px;
+}
+.content{
+	padding-top: px;
+}
+.calendar{
+     background-color: gray;
+     color:#f3f3f3;
+     padding:10px;
+     border-radius: 10px;
+}
+.news p{
+     padding-bottom: 30px;
+}
+#img{
+     border-radius: 10px;
+     height: 100%;
+     width: 100%;
+}
+
+#panel-panel{
+     margin-top: 50px;
+     margin-bottom: 50px;
+}
+.box{
+     background-color:black;
+     color:white;
+     border-radius: 10px;
+}
+.justify-text{
+     background-color:gray;
+     color:#f3f3f3;
+     margin-left: 7%;
+     border-radius: 10px;
+     padding-bottom: 30px;
+     margin-top: 30px;
+}
+#Boxes{
+     padding-bottom: 50px;
+}
+#panel-body-body{
+     background-image:url('../shspic/logoblur.png');
+     background-repeat: no-repeat; background-position: center;
+     width: 100%;
+     height: 300px;
+}
+.radio b{
+     font-size: 30px;
+}
+.radio:hover{
+     color:gray;
+}
+
+  .profile{
+    margin:20px 0 ;
+  }
+  .profile-sidebar{
+    padding:20px 0 10px 0;
+  }
+  .profile-user-pic{
+    float:none;
+    margin:auto;
+    width:50%;
+    height:50%;
+  }
+  .profile-user-title{
+    text-align: center;
+    margin-top: 20px;
+  }
+  .profile-user-stno{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  .profile-user-name{
+    text-transform: uppercase;
+    color:#5babd1;
+  }
+  .profile-user-button{
+    text-align: center;
+    margin-top:10px;
+  }
+
+#student-picture{
+     border-radius: 10px;
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Bootstrap validation using jquery</title>
+
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrapValidator.css">
+<style>
+body {
+    background: #eee none repeat scroll 0 0;
+}
+.form-validation {
+    margin: 30px auto 0;
+    width: 350px;
+}
+</style>
+
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script src="js/bootstrapValidator.js"></script>
+
+
+
+</head>
+
+
+
+
+
+<body>
+
+	
+	<div class="container">
+		<div class="form-validation">
+			
+			<form id="form-validation" method="POST" action="#" >
+			  <div class="form-group">
+				<label for="name">Email address</label>
+				<input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">
+			  </div>
+			   <div class="form-group">
+				<label for="email">Email address</label>
+				<input type="email" class="form-control" id="email" name="email" placeholder="Enter your email address">
+			  </div>
+			  <div class="form-group">
+				<label for="password">Password</label>
+				<input type="password" class="form-control" id="password" name="password" placeholder="Password">
+			  </div>
+			  <div class="form-group">
+				<label for="confirmpassword">Confirm Password</label>
+				<input type="password" class="form-control" id="confirmpassword" name="confirmpassword" placeholder="Confirm Password">
+			  </div>
+			  <div class="form-group">
+				<label for="gender">gender</label>
+				<select class="form-control" id="gender" name="gender">
+					<option value="0">Select Gender</option>
+					<option value="1">Male</option>
+					<option value="2">Female</option>
+				</select>
+			  </div>
+			  
+			 <div class="form-group">
+			  <button type="submit" class="btn btn-default">Submit</button>
+			 </div>
+			</form>
+			
+		</div>
+	</div>
+</body>
+<script type="text/javascript">
+	$(document).ready(function () {
+		var validator = $("#form-validation").bootstrapValidator({
+		
+			fields : {
+				name :{
+					validators : {
+						notEmpty : {
+							message : "zzzzzzzzzzzzzzzzzzz"
+						}
+					}
+				},
+				email :{
+					validators : {
+						notEmpty : {
+							message : "Email address is required"
+						}
+					}
+				},
+				password :{
+					validators : {
+						notEmpty : {
+							message : "Password is required"
+						}
+					}
+				},
+				confirmpassword :{
+					validators : {
+						notEmpty : {
+							message : "Confirm password is required"
+						},
+						identical : {
+							field : "password",
+							message : "password do not match"
+						}
+					}
+				}
+				
+			}
+		});
+	
+		
+	});
+</script>
+
+
+
+
+</html>

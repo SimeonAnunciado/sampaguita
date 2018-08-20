@@ -1,0 +1,33 @@
+Errror old student na seset ung session kahit mali , engk!
+student/oldstudent.php
+user/studentportal.php
+
+--
+
+
+isaisahin ang navbar , each folder
+
+
+
+---
+// kulang 
+per grade may date upang makayanan ng chairman ma aaprove lahat ng form para sa mga enrollee.
+may enrollment , start ng school june . 1 month. 
+
+
+
+
+date ng enroll ..
+date ng pasukan ..
+
+success pero error superadmi chairman accounts
+//
+
+admin
+dpat di makikita ung pending student.
+
+///
+
+enroll notification kung ung form nya e na approve na ng chairman, notif account
+
+

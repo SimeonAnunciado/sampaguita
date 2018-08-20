@@ -1,0 +1,27 @@
+body{
+	background-color: #f4f7f7;
+}
+
+   
+        .carousel-inner > .item > img,
+        .carousel-inner > .item > a > img {
+              width: 70%;
+              margin: auto;
+          }
+        .banner{
+            color:black;
+            font-size: 20px;
+            margin: 20px;
+            font-family: "Times New Roman", Times, serif;
+
+          }
+        .banners{
+            background-color: #D7FFF1;
+          }
+        .footer{
+            color:grey;
+            font-size: 16px;
+            margin: 20px;
+            font-family: "verdana", Times, serif;
+          }
+
